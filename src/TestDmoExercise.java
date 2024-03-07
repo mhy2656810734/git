@@ -18,7 +18,14 @@ public class TestDmoExercise {
         /**
          *
          */
-        method(null);
+//        method(null);
+//        func();
+        test();
+    }
+
+    private static int func() {
+        Integer a = null;
+        return a;
     }
 
     /**
@@ -39,5 +46,10 @@ public class TestDmoExercise {
             default:
                 System.out.println("default");
         }
+    }
+    public static void test() {
+        Character a = 126, b = 126, c = 128, d = 128;
+        System.out.println(a == b);
+        System.out.println(c == d);
     }
 }
